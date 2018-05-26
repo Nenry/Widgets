@@ -1,0 +1,44 @@
+
+#clock{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+  border-radius: 10px;
+  /* color: white; */
+  font-family: 'Monoton', cursive;
+  color: red;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#selected-tab {
+  font-weight: bold;
+}
+
+#tabs-container {
+width: 300px;
+margin: auto;
+background: green;
+}
+
+#tab-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 50px;
+
+}
+
+#tab-bar li {
+  list-style-type: none;
+}
+
+#tab-content {
+  background-color: yellow;
+  justify-content: center;
+  height: 200px;
+}
