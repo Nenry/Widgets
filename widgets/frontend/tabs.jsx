@@ -16,13 +16,11 @@ class Tabs extends React.Component {
     const tabHeaders = this.state.tabs.map(obj =>  obj.title );
     return(
       <div id="tabs-container">
-
         <Header tabHeaders={tabHeaders} selected={this.state.selectedTab}/>
 
-      <article id="tab-content">
-        <p>{selectedTab.content}</p>
-      </article>
-
+        <article id="tab-content">
+          <p>{selectedTab.content}</p>
+        </article>
       </div>
     );
   }
